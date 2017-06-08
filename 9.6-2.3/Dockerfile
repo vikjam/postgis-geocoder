@@ -1,4 +1,4 @@
-FROM mdillon/postgis:%%PG_MAJOR%%
+FROM mdillon/postgis:9.6
 MAINTAINER Vikram Jambulapati <vikjam@gmail.com>
 
 RUN apt-get update \
